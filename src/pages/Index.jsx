@@ -27,6 +27,7 @@ const Index = () => {
           <Heading as="h2" size="2xl">
             Welcome to My Company
           </Heading>
+          <Text fontSize="lg">Turning Land into Landmark</Text>
           <Text fontSize="lg">We provide the best services to help your business grow.</Text>
           <Button colorScheme="teal" size="lg">
             Get Started
