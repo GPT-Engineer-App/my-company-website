@@ -8,7 +8,7 @@ const Index = () => {
       <Box as="header" w="100%" p={4} bg="teal.500" color="white">
         <HStack justifyContent="space-between">
           <Heading as="h1" size="lg">
-            My Company
+            Landmark Estates
           </Heading>
           <HStack spacing={4}>
             <Link href="#about" color="white">
@@ -49,7 +49,7 @@ const Index = () => {
       {/* Footer */}
       <Box as="footer" w="100%" p={4} bg="teal.500" color="white" textAlign="center">
         <VStack spacing={2}>
-          <Text>&copy; {new Date().getFullYear()} My Company. All rights reserved.</Text>
+          <Text>&copy; {new Date().getFullYear()} Landmark Estates. All rights reserved.</Text>
           <HStack spacing={4}>
             <IconButton as="a" href="https://facebook.com" aria-label="Facebook" icon={<FaFacebook />} size="lg" colorScheme="teal" />
             <IconButton as="a" href="https://twitter.com" aria-label="Twitter" icon={<FaTwitter />} size="lg" colorScheme="teal" />
